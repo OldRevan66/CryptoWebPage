@@ -5,42 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur's Web Page</title>
     <link rel="stylesheet" href="styles.css">
-
-   
-
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Home Page</h1>
+        <h1>Bienvenido a mi página personal</h1>
     </header>
     <nav>
-        <a href="#about">About Me</a>
+        <a href="#education">Formación Académica</a>
+        <a href="#email">Correo Electrónico</a>
+        <a href="#social">Redes Sociales</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#history">Acerca de la Criptografía</a>
         <a href="#resume">Resume/CV</a>
-        <a href="#pubKey">Public Key</a>
+        <a href="#pubKey">Llave Pública</a>
     </nav>
 
     <div>
     <h1>Arturo Monroy Mora</h1>
     <div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi there! I'm Arturo Monroy Mora, a systems engineering student at ESCOM, currently taking an undergraduate cryptography class.</p>
-        <p>The purpose of this website is to serve as a tool to practice cryptography skills learned at class</p>
+
+    <section id="profile-picture">
+        <h2>My Profile Picture</h2>
+        <img src="media/myself.jpg" alt="Profile Picture" class="profile-image">
+    </section>        
+
+    <!--<section id="image-section">
+        <h2>Mi Foto</h2>
+        <img src="media/myself.jpg" alt="My pic" class="centered-image">
+    </section>-->
+
+    <section id="education">
+        <h2>Formación Académica</h2>
+        <ul>
+            <li>Primaria: Colegio Mahatma Gandhi</li>
+            <li>Secundaria: Colegio Mahatma Gandhi</li>
+            <li>Bachillerato: Técnico en Informática CECyT No. 13 Ricardo Flores Magón</li>
+            <li>Nivel Superior: Ingeniería en Sistemas Computacionales ESCOM </li>
+        </ul>
+    </section>    
+
+    <section id="email">
+        <h2>Correo Electrónico</h2>
+        <p>oldrevan66@gmail.com</p>
+    </section>
+
+    <section id="social">
+        <h2>Redes Sociales</h2>
+        <a href="https://www.linkedin.com/in/monroy-mora-arturo-3737b5208/" target="_blank" class="linkedin-btn">Visita mi perfil de LinkedIn</a>
+    </section>
+
+    <section id="hobbies">
+        <h2>Mis Hobbies</h2>
+        <div class="hobby">
+            <img src="media/hobby1.png" alt="Hobby 1" class="hobby-image">
+            <h3>Historia</h3>
+            <p>Desde pequeño mi abuelo me inculcó el gusto por la historia, y desde entonces suelo consumir mucho contenido multimedia sobre historia.</p>
+        </div>
+        <div class="hobby">
+            <img src="media/hobby2.jpg" alt="Hobby 2" class="hobby-image">
+            <h3>Videojuegos</h3>
+            <p>Soy gran fan del medio del videojuego, me parece increíble la "magia" que se puede generar a partir de interactuar con simples píxeles en pantalla</p>
+        </div>
+        <div class="hobby">
+            <img src="media/hobby3.jpg" alt="Hobby 3" class="hobby-image">
+            <h3>Idiomas y Etimología</h3>
+            <p>Suelo practicar mucho el Inglés y profundizar en vocabulario o términos no muy conocidos que se encuentran en la literatura.</p>
+        </div>
+    </section>    
+
+    <section id="history">
+        <h2>Acerca de la Criptografía</h2>
+        <h3>Análisis de Frecuencias por Al-Kindi</h3>
+        <p>En el siglo IX, Al-Kindi, un filósofo y matemático árabe, revolucionó la criptografía con el desarrollo del análisis de frecuencia, una poderosa técnica criptanalítica. Su obra, descrita en "Un manuscrito sobre la decodificación de mensajes cifrados", fue el primer método conocido para descifrar cifras de sustitución monoalfabéticas—donde cada letra es reemplazada consistentemente por otra—sin conocer la clave.</p>
+        <p>Al-Kindi observó que en cualquier idioma, ciertas letras aparecen con más frecuencia que otras (por ejemplo, la "E" en inglés). Analizando la frecuencia de las letras en el texto cifrado y comparándolas con los patrones conocidos del idioma, podía deducir qué letras representaban a cuáles y reconstruir el mensaje original. También sugirió utilizar combinaciones comunes de letras (como "th" en inglés) como pistas para la decodificación.</p>
+        <p>Este descubrimiento mejoró significativamente la criptografía, sustituyendo los métodos de fuerza bruta por un enfoque más sistemático y lógico para romper códigos. El método de Al-Kindi hizo vulnerables a las cifras monoalfabéticas y eventualmente condujo a la creación de cifras más complejas, como las polialfabéticas. Su obra fue influyente durante siglos, marcando el comienzo del análisis criptográfico como una disciplina formal y dando forma al futuro de la criptografía.</p>
+        
     </section>
 
     <section id="resume">
         <h2>Resume/CV</h2>
-        <a href="media/Arturo Monroy Mora Resume.pdf" download="AMM_Resume-CV.pdf" class="download-btn">Download my Resume/CV</a>
+        <a href="media/Arturo Monroy Mora Resume.pdf" download="AMM_Resume-CV.pdf" class="download-btn">Descarga mi Resume/CV</a>
     </section>
 
     <section id="pubKey">
-        <h2>Public Key</h2>
-        <a class="download-btn">Download my public key</a>
+        <h2>Llave Pública</h2>
+        <a class="download-btn">Descarga mi llave pública</a>
     </section>
 
     <footer>
-        <p>© 2024 Arthur's Home Page</p>
+        <p>© 2024 Arthur's Web Page</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
